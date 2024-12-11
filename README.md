@@ -11,48 +11,49 @@ Configuração do Projeto:<br>
 Faça o clone do repositório em sua máquina local: <br>
 https://github.com/GabrielBriano/GestaoDeProdutos.git<br>
 
+<br>
+Configurar o Backend (API):<br>
+Acesse a pasta da API: cd seu-repositorio/API<br>
 
-Configurar o Backend (API):
-Acesse a pasta da API: cd seu-repositorio/API
+<br>
+Configurar a String de Conexão:<br>
+	No arquivo appsettings.json, configure a conexão com seu banco de dados PostgreSQL:<br>
+<br>
+	"ConnectionStrings": {<br>
+  		"DefaultConnection": "Host=localhost;Database=ProductDB;Username=postgres;Password=suaSenha"<br>
+	}<br>
 
+<br>
+Executar as Migrações do Banco de Dados:<br>
+	dotnet ef migrations add InitialCreate<br>
+	dotnet ef database update<br>
 
-Configurar a String de Conexão:
-	No arquivo appsettings.json, configure a conexão com seu banco de dados PostgreSQL:
+<br>
+Iniciar o Servidor:<br>
+	Compile e execute a API com o comando: dotnet run<br>
 
-	"ConnectionStrings": {
-  		"DefaultConnection": "Host=localhost;Database=ProductDB;Username=postgres;Password=suaSenha"
-	}
+<br>
+Testar a API:<br>
+	Acesse o Swagger no navegador para testar os endpoints: http://localhost:5000/swagger<br>
 
+<br>
+Configurar o Front-End (Delphi)<br>
 
-Executar as Migrações do Banco de Dados:
-	dotnet ef migrations add InitialCreate
-	dotnet ef database update
+Abra o Projeto no Delphi:<br>
 
+Acesse a pasta FrontEnd e abra o arquivo .dproj no Delphi.<br>
 
-Iniciar o Servidor:
-	Compile e execute a API com o comando: dotnet run
+Configurar a URL da API:<br>
 
+No código, localize a constante API_BASE_URL e configure a URL da API:<br>
+<br>
+const<br>
+  API_BASE_URL = 'http://localhost:5000/api/products';<br>
+<br>
+Compilar o Projeto:<br>
 
-Testar a API:
-	Acesse o Swagger no navegador para testar os endpoints: http://localhost:5000/swagger
+Compile o projeto no Delphi. Certifique-se de que não há erros antes de executar.<br>
 
- 3. Configurar o Front-End (Delphi)
-
-Abra o Projeto no Delphi:
-
-Acesse a pasta FrontEnd e abra o arquivo .dproj no Delphi.
-
-Configurar a URL da API:
-
-No código, localize a constante API_BASE_URL e configure a URL da API:
-
-const
-  API_BASE_URL = 'http://localhost:5000/api/products';
-
-Compilar o Projeto:
-
-Compile o projeto no Delphi. Certifique-se de que não há erros antes de executar.
-
-Executar o Front-End:
+Executar o Front-End:<br>
 
 Execute o aplicativo no Delphi para testar as funcionalidades de cadastro, edição, exclusão e listagem de produtos.
