@@ -42,7 +42,7 @@ git clone https://github.com/GabrielBriano/GestaoDeProdutos.git
    ```json
    {
        "ConnectionStrings": {
-           "DefaultConnection": "Host=localhost;Database=ProductDB;Username=postgres;Password=suaSenha"
+           "DefaultConnection": "Host=localhost;Database=ProductDB;Username=postgres;Password=123"
        }
    }
    ```
