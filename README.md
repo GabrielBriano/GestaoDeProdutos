@@ -1,4 +1,4 @@
-Antes de começar, certifique-se de ter as seguintes ferramentas instaladas:
+Antes de começar, certifique-se de ter as seguintes ferramentas instaladas:<br>
 API Backend:
 	.NET SDK (versão 6.0 ou superior)
    PostgreSQL
@@ -35,3 +35,24 @@ Iniciar o Servidor:
 
 Testar a API:
 	Acesse o Swagger no navegador para testar os endpoints: http://localhost:5000/swagger
+
+ 3. Configurar o Front-End (Delphi)
+
+Abra o Projeto no Delphi:
+
+Acesse a pasta FrontEnd e abra o arquivo .dproj no Delphi.
+
+Configurar a URL da API:
+
+No código, localize a constante API_BASE_URL e configure a URL da API:
+
+const
+  API_BASE_URL = 'http://localhost:5000/api/products';
+
+Compilar o Projeto:
+
+Compile o projeto no Delphi. Certifique-se de que não há erros antes de executar.
+
+Executar o Front-End:
+
+Execute o aplicativo no Delphi para testar as funcionalidades de cadastro, edição, exclusão e listagem de produtos.
