@@ -1,59 +1,112 @@
-Antes de começar, certifique-se de ter as seguintes ferramentas instaladas:<br>
-API Backend:<br>
-	.NET SDK (versão 6.0 ou superior)<br>
-   PostgreSQL<br>
-<br>
-Front-End Delphi:<br>
-	Delphi IDE (Delphi Community Edition)<br>
+# **Gestão de Produtos**
 
-<br>
-Configuração do Projeto:<br>
-Faça o clone do repositório em sua máquina local: <br>
-https://github.com/GabrielBriano/GestaoDeProdutos.git<br>
+Uma aplicação completa para gerenciamento de produtos, com funcionalidades de cadastro, edição, exclusão e listagem, utilizando uma API em **ASP.NET Core** e um front-end em **Delphi (VCL)**.
 
-<br>
-Configurar o Backend (API):<br>
-Acesse a pasta da API: cd GerenciamentoAPI.Api/GerenciamentoAPI<br>
+---
 
-<br>
-Configurar a String de Conexão:<br>
-	No arquivo appsettings.json, configure a conexão com seu banco de dados PostgreSQL:<br>
-<br>
-	"ConnectionStrings": {<br>
-  		"DefaultConnection": "Host=localhost;Database=ProductDB;Username=postgres;Password=suaSenha"<br>
-	}<br>
+## **Pré-requisitos**
 
-<br>
-Executar as Migrações do Banco de Dados:<br>
-	dotnet ef migrations add InitialCreate<br>
-	dotnet ef database update<br>
+Certifique-se de ter as seguintes ferramentas instaladas antes de iniciar o projeto:
 
-<br>
-Iniciar o Servidor:<br>
-	Compile e execute a API com o comando: dotnet run<br>
+### API Backend:
+- [.NET SDK](https://dotnet.microsoft.com/) (versão 8.0 usada nesse projeto)
+- PostgreSQL
 
-<br>
-Testar a API:<br>
-	Acesse o Swagger no navegador para testar os endpoints: http://localhost:7047/swagger<br>
+### Front-End Delphi:
+- [Delphi IDE](https://www.embarcadero.com/) (Delphi Community Edition)
 
-<br>
-Configurar o Front-End (Delphi)<br>
+---
 
-Abra o Projeto no Delphi:<br>
+## **Configuração do Projeto**
 
-Acesse a pasta FrontEnd e abra o arquivo .dproj no Delphi.<br>
+### 1. Clonar o Repositório
 
-Configurar a URL da API:<br>
+```bash
+git clone https://github.com/GabrielBriano/GestaoDeProdutos.git
+```
 
-No código, localize a constante API_BASE_URL e configure a URL da API:<br>
-<br>
-const<br>
-  API_BASE_URL = 'http://localhost:7047/api/products';<br>
-<br>
-Compilar o Projeto:<br>
+---
 
-Compile o projeto no Delphi. Certifique-se de que não há erros antes de executar.<br>
+### 2. Configurar o Backend (API)
 
-Executar o Front-End:<br>
+1. **Acesse a pasta da API:**
 
-Execute o aplicativo no Delphi para testar as funcionalidades de cadastro, edição, exclusão e listagem de produtos.
+   ```bash
+   cd GerenciamentoAPI.Api/GerenciamentoAPI
+   ```
+
+2. **Configurar a String de Conexão:**
+
+   No arquivo `appsettings.json`, configure a conexão com o banco de dados PostgreSQL:
+
+   ```json
+   {
+       "ConnectionStrings": {
+           "DefaultConnection": "Host=localhost;Database=ProductDB;Username=postgres;Password=suaSenha"
+       }
+   }
+   ```
+
+3. **Executar as Migrações do Banco de Dados:**
+
+   ```bash
+   dotnet ef migrations add InitialCreate
+   dotnet ef database update
+   ```
+
+4. **Iniciar o Servidor:**
+
+   ```bash
+   dotnet run
+   ```
+
+5. **Testar a API:**
+
+   Acesse o **Swagger** no navegador para testar os endpoints:
+
+   ```
+   http://localhost:7047/swagger
+   ```
+
+---
+
+### 3. Configurar o Front-End (Delphi)
+
+1. **Abrir o Projeto no Delphi:**
+   - Navegue até a pasta `FrontEnd` e abra o arquivo `.dproj`.
+
+2. **Configurar a URL da API:**
+   No código, localize a constante `API_BASE_URL` e configure a URL correta:
+
+   ```pascal
+   const
+       API_BASE_URL = 'http://localhost:7047/api/products';
+   ```
+
+3. **Compilar o Projeto:**
+   Compile o projeto no Delphi. Certifique-se de que não há erros antes de executar.
+
+4. **Executar o Front-End:**
+   Execute o aplicativo no Delphi para testar as funcionalidades de cadastro, edição, exclusão e listagem de produtos.
+
+---
+
+
+## **Estrutura do Projeto**
+
+### Backend (API):
+- **Linguagem:** C# (.NET Core)
+- **Banco de Dados:** PostgreSQL
+- **Principais Arquivos:**
+  - `Program.cs`: Configuração principal da API
+  - `Controllers/ProductsController.cs`: Controlador responsável pelas operações CRUD
+  - `Data/AppDbContext.cs`: Contexto do banco de dados
+  - `Models/Product.cs`: Modelo do produto
+
+### Front-End (Delphi):
+- **Linguagem:** Delphi (VCL)
+- **Principais Arquivos:**
+  - `MainForm.dfm`: Interface gráfica
+  - `MainForm.pas`: Código do front-end
+
+---
