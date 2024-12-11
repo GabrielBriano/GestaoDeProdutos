@@ -1,0 +1,70 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "E:\\GestaoDeProdutos\\GerenciamentoAPI.Api\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{BD88FF4D-5BB2-42BE-A90A-E0E3A099E55A}|GerenciamentoAPI\\GerenciamentoAPI.csproj|e:\\gestaodeprodutos\\gerenciamentoapi.api\\gerenciamentoapi\\controllers\\productscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BD88FF4D-5BB2-42BE-A90A-E0E3A099E55A}|GerenciamentoAPI\\GerenciamentoAPI.csproj|solutionrelative:gerenciamentoapi\\controllers\\productscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BD88FF4D-5BB2-42BE-A90A-E0E3A099E55A}|GerenciamentoAPI\\GerenciamentoAPI.csproj|e:\\gestaodeprodutos\\gerenciamentoapi.api\\gerenciamentoapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BD88FF4D-5BB2-42BE-A90A-E0E3A099E55A}|GerenciamentoAPI\\GerenciamentoAPI.csproj|solutionrelative:gerenciamentoapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BD88FF4D-5BB2-42BE-A90A-E0E3A099E55A}|GerenciamentoAPI\\GerenciamentoAPI.csproj|e:\\gestaodeprodutos\\gerenciamentoapi.api\\gerenciamentoapi\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BD88FF4D-5BB2-42BE-A90A-E0E3A099E55A}|GerenciamentoAPI\\GerenciamentoAPI.csproj|solutionrelative:gerenciamentoapi\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "E:\\GestaoDeProdutos\\GerenciamentoAPI.Api\\GerenciamentoAPI\\Program.cs",
+              "RelativeDocumentMoniker": "GerenciamentoAPI\\Program.cs",
+              "ToolTip": "E:\\GestaoDeProdutos\\GerenciamentoAPI.Api\\GerenciamentoAPI\\Program.cs",
+              "RelativeToolTip": "GerenciamentoAPI\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-11T01:21:59.119Z",
+              "IsPinned": true
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Product.cs",
+              "DocumentMoniker": "E:\\GestaoDeProdutos\\GerenciamentoAPI.Api\\GerenciamentoAPI\\Models\\Product.cs",
+              "RelativeDocumentMoniker": "GerenciamentoAPI\\Models\\Product.cs",
+              "ToolTip": "E:\\GestaoDeProdutos\\GerenciamentoAPI.Api\\GerenciamentoAPI\\Models\\Product.cs",
+              "RelativeToolTip": "GerenciamentoAPI\\Models\\Product.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-11T02:32:59.801Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ProductsController.cs",
+              "DocumentMoniker": "E:\\GestaoDeProdutos\\GerenciamentoAPI.Api\\GerenciamentoAPI\\Controllers\\ProductsController.cs",
+              "RelativeDocumentMoniker": "GerenciamentoAPI\\Controllers\\ProductsController.cs",
+              "ToolTip": "E:\\GestaoDeProdutos\\GerenciamentoAPI.Api\\GerenciamentoAPI\\Controllers\\ProductsController.cs",
+              "RelativeToolTip": "GerenciamentoAPI\\Controllers\\ProductsController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAGoAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-11T02:31:36.107Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
