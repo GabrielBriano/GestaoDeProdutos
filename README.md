@@ -1,15 +1,15 @@
 Antes de começar, certifique-se de ter as seguintes ferramentas instaladas:<br>
-API Backend:
-	.NET SDK (versão 6.0 ou superior)
-   PostgreSQL
+API Backend:<br>
+	.NET SDK (versão 6.0 ou superior)<br>
+   PostgreSQL<br>
+<br>
+Front-End Delphi:<br>
+	Delphi IDE (Delphi Community Edition)<br>
 
-Front-End Delphi:
-	Delphi IDE (Delphi Community Edition)
-
-
-Configuração do Projeto:
-Faça o clone do repositório em sua máquina local: 
-https://github.com/GabrielBriano/GestaoDeProdutos.git
+<br>
+Configuração do Projeto:<br>
+Faça o clone do repositório em sua máquina local: <br>
+https://github.com/GabrielBriano/GestaoDeProdutos.git<br>
 
 
 Configurar o Backend (API):
