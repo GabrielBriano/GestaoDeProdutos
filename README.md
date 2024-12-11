@@ -13,7 +13,7 @@ https://github.com/GabrielBriano/GestaoDeProdutos.git<br>
 
 <br>
 Configurar o Backend (API):<br>
-Acesse a pasta da API: cd seu-repositorio/API<br>
+Acesse a pasta da API: cd GerenciamentoAPI.Api/GerenciamentoAPI<br>
 
 <br>
 Configurar a String de Conexão:<br>
