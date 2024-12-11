@@ -34,7 +34,7 @@ Iniciar o Servidor:<br>
 
 <br>
 Testar a API:<br>
-	Acesse o Swagger no navegador para testar os endpoints: http://localhost:5000/swagger<br>
+	Acesse o Swagger no navegador para testar os endpoints: http://localhost:7047/swagger<br>
 
 <br>
 Configurar o Front-End (Delphi)<br>
@@ -48,7 +48,7 @@ Configurar a URL da API:<br>
 No código, localize a constante API_BASE_URL e configure a URL da API:<br>
 <br>
 const<br>
-  API_BASE_URL = 'http://localhost:5000/api/products';<br>
+  API_BASE_URL = 'http://localhost:7047/api/products';<br>
 <br>
 Compilar o Projeto:<br>
 
